@@ -6,7 +6,7 @@ body{
   background-color: #606060;
 }
 
-.box{
+.box,.box-X,.box-O{
   width: 100%;
   height: 90px;
   background-color: rgb(162, 167, 167);
@@ -15,7 +15,16 @@ body{
   align-items: center;
 }
 
-.box:hover{
+.box-X{
+  background-color: rgb(118, 152, 87);
+
+}
+.box-O{
+  background-color: rgb(118, 152, 87);
+
+}
+
+.box_hover:hover{
   background-color: rgb(117, 121, 121);;
 }
 
@@ -51,5 +60,6 @@ p{
   padding: 100px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
